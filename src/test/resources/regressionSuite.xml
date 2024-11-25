@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Test Automation Project/Nakhla_RestAssured_API_Automation/src/test/resources">
+<!--        <packages>-->
+<!--            <package name="com.parabank.parasoft.testcases.RegisterTest"></package>-->
+<!--        </packages>--> 
+        <classes>
+            <class name="com.nakhla.api.testcases.UserTestDD"></class>
+        </classes>
+    </test>
+</suite>
