@@ -16,7 +16,7 @@ public class UserEndPoints {
                 .body(payload)
 
                 .when()
-                .post(post_url);
+                .post(post_User_Registration_url);
        return response;
 
 

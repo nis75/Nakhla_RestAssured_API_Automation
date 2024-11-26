@@ -89,7 +89,7 @@ public class UserTest extends BaseTest{
 
     }
     @Test(priority = 7)
-    public void testUserRegistrationPasswordWithoutContainNumbers()
+    public void testUserRegistrationPasswordWithoutContainCharacters()
     {
         Response response = UserEndPoints.UserRegistration(userPayload8);
 

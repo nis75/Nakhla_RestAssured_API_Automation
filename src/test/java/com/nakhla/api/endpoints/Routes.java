@@ -5,7 +5,7 @@ public class Routes {
 
     //User URLS
 
-    public static String post_url=base_url+"/api/auth/local/register";
+    public static String post_User_Registration_url=base_url+"/api/auth/local/register";
     public static String post_login_url=base_url+"/api/auth/local";
     public static String post_forgot_password_url="https://devapi.nakhlah.xyz/api/auth/forgot-password";
 
